@@ -70,6 +70,8 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -95,6 +97,12 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
